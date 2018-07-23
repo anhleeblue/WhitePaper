@@ -239,3 +239,88 @@ b{
     }
     
 }
+#page_5{
+    background: url("../image/4.png") no-repeat;
+    background-size:contain;
+    background-position-x:center;
+    padding-top: 60%;
+    position: relative;
+    h1{
+        
+        margin-left: 4%;
+    font-size: 60px;
+    @include mQ(800px){
+        font-size: 40px;
+    }
+    @include mQ(411px){
+        font-size: 20px;
+    }
+    }
+    #ul_p5{
+        ul{
+            @include clearFix;
+            li{
+                width:48%;
+                float: left;
+                padding: 4%;
+                @include mQ(411px){
+                    width: 100%;
+                    padding: 10px 10%;
+                }
+                #mobi_p{
+                    display: none;
+                    @include mQ(411px){
+                        display: block;
+                        padding-top:10px;
+                    }
+                }
+                .mobi_p{
+                    @include mQ(411px){
+                        display: none;
+                    }
+                }
+                p{
+                    font-size: 25px;
+                    line-height: 1.6em;
+                    margin-bottom: 65px;
+                    @include mQ(1440px){
+                        font-size: 20px;
+                        line-height: 1.2em;
+                        margin-bottom: 65px;
+                    }
+                    @include mQ(1024px){
+                        font-size: 18px;
+                        line-height: 1em;
+                        margin-bottom: 10px;
+                    }
+                    @include mQ(800px){
+                        font-size: 13px;
+                    }
+                }
+            }
+            h2{
+                margin: 40px 0;
+                font-size: 40px;
+                font-style: italic;
+                color: #d9265e;
+                @include mQ(800px){
+                    margin: 10px 0;
+                    font-size: 25px;
+                }
+                @include mQ(411px){
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    #img_bot_pg5{
+        z-index: -1;
+        width: 45%;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        @include mQ(411px){
+            display: none;
+        }
+    }
+}

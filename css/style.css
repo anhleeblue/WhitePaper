@@ -222,4 +222,79 @@ b {
         #page_4 #wrap_4 #img_4 {
           display: none; } }
 
+#page_5 {
+  background: url("../image/4.png") no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  padding-top: 60%;
+  position: relative; }
+  #page_5 h1 {
+    margin-left: 4%;
+    font-size: 60px; }
+    @media screen and (max-width: 800px) {
+      #page_5 h1 {
+        font-size: 40px; } }
+    @media screen and (max-width: 411px) {
+      #page_5 h1 {
+        font-size: 20px; } }
+  #page_5 #ul_p5 ul:after {
+    content: "";
+    display: block;
+    clear: both; }
+  #page_5 #ul_p5 ul li {
+    width: 48%;
+    float: left;
+    padding: 4%; }
+    @media screen and (max-width: 411px) {
+      #page_5 #ul_p5 ul li {
+        width: 100%;
+        padding: 10px 10%; } }
+    #page_5 #ul_p5 ul li #mobi_p {
+      display: none; }
+      @media screen and (max-width: 411px) {
+        #page_5 #ul_p5 ul li #mobi_p {
+          display: block;
+          padding-top: 10px; } }
+    @media screen and (max-width: 411px) {
+      #page_5 #ul_p5 ul li .mobi_p {
+        display: none; } }
+    #page_5 #ul_p5 ul li p {
+      font-size: 25px;
+      line-height: 1.6em;
+      margin-bottom: 65px; }
+      @media screen and (max-width: 1440px) {
+        #page_5 #ul_p5 ul li p {
+          font-size: 20px;
+          line-height: 1.2em;
+          margin-bottom: 65px; } }
+      @media screen and (max-width: 1024px) {
+        #page_5 #ul_p5 ul li p {
+          font-size: 18px;
+          line-height: 1em;
+          margin-bottom: 10px; } }
+      @media screen and (max-width: 800px) {
+        #page_5 #ul_p5 ul li p {
+          font-size: 13px; } }
+  #page_5 #ul_p5 ul h2 {
+    margin: 40px 0;
+    font-size: 40px;
+    font-style: italic;
+    color: #d9265e; }
+    @media screen and (max-width: 800px) {
+      #page_5 #ul_p5 ul h2 {
+        margin: 10px 0;
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_5 #ul_p5 ul h2 {
+        font-size: 18px; } }
+  #page_5 #img_bot_pg5 {
+    z-index: -1;
+    width: 45%;
+    bottom: 0;
+    right: 0;
+    position: absolute; }
+    @media screen and (max-width: 411px) {
+      #page_5 #img_bot_pg5 {
+        display: none; } }
+
 /*# sourceMappingURL=style.css.map */
