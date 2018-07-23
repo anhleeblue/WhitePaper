@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: 'Rubik', sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#page1 img {
+  max-width: 1920px; }
+
+.red_text {
+  color: #d9265e;
+  font-weight: bold;
+  font-size: 40px; }
+  @media screen and (max-width: 411px) {
+    .red_text {
+      font-size: 20px; } }
+
+#content {
+  padding: 10% 5% 0 5%; }
+  #content #ul_text {
+    margin: 60px auto; }
+    #content #ul_text:after {
+      content: "";
+      display: block;
+      clear: both; }
+    @media screen and (max-width: 411px) {
+      #content #ul_text {
+        margin: 20px 0; } }
+    #content #ul_text ul {
+      width: 48%;
+      float: left; }
+      @media screen and (max-width: 411px) {
+        #content #ul_text ul {
+          width: 100%; } }
+      #content #ul_text ul li {
+        font-size: 25px;
+        padding: 20px 0; }
+        @media screen and (max-width: 1024px) {
+          #content #ul_text ul li {
+            font-size: 18px;
+            padding: 10px 0; } }
+        @media screen and (max-width: 800px) {
+          #content #ul_text ul li {
+            font-size: 13px;
+            padding: 10px 20px; } }
+        #content #ul_text ul li .lui_text {
+          margin-left: 40px; }
+        #content #ul_text ul li .bold_p {
+          font-weight: bold; }
+    #content #ul_text p {
+      display: inline-block;
+      margin-left: 10px; }
+  #content #img_content div {
+    width: 50%; }
+
+b {
+  font-weight: bold; }
+
+.wrap_page {
+  width: 100px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 auto; }
+  .wrap_page .page {
+    padding: 15px 0 0 5px;
+    color: #d9265e;
+    height: 200px;
+    border-radius: 20% 0 0 0;
+    border-left: 3px solid #d9265e; }
+
+.bold_p {
+  font-weight: bold; }
+
+#page_3 {
+  background: url("../image/3_1.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 50%; }
+  @media screen and (max-width: 1440px) {
+    #page_3 {
+      background-size: contain; } }
+  #page_3 #ul_page_3 {
+    padding: 0% 5% 0 5%; }
+    #page_3 #ul_page_3:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #page_3 #ul_page_3 ul {
+      width: 48%;
+      float: left; }
+      @media screen and (max-width: 411px) {
+        #page_3 #ul_page_3 ul {
+          width: 100%; } }
+      #page_3 #ul_page_3 ul li {
+        margin-bottom: 50px;
+        padding: 0 10%; }
+        @media screen and (max-width: 1024px) {
+          #page_3 #ul_page_3 ul li {
+            margin-bottom: 20px; } }
+        #page_3 #ul_page_3 ul li p {
+          font-size: 25px; }
+          @media screen and (max-width: 1024px) {
+            #page_3 #ul_page_3 ul li p {
+              font-size: 18px; } }
+          @media screen and (max-width: 800px) {
+            #page_3 #ul_page_3 ul li p {
+              font-size: 13px; } }
+
+#page_4 {
+  background: url("../image/4.png") no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  padding-top: 60%; }
+  #page_4 h1 {
+    margin-left: 4%;
+    font-size: 60px; }
+    @media screen and (max-width: 800px) {
+      #page_4 h1 {
+        font-size: 40px; } }
+    @media screen and (max-width: 411px) {
+      #page_4 h1 {
+        font-size: 20px; } }
+  #page_4 #wrap_4 {
+    padding-top: 10%; }
+    #page_4 #wrap_4:after {
+      content: "";
+      display: block;
+      clear: both; }
+    @media screen and (max-width: 800px) {
+      #page_4 #wrap_4 {
+        padding-top: 2%; } }
+    #page_4 #wrap_4 #text_4 {
+      width: 40%;
+      padding: 4%;
+      float: left; }
+      @media screen and (max-width: 600px) {
+        #page_4 #wrap_4 #text_4 {
+          width: 50%;
+          padding: 3%; } }
+      @media screen and (max-width: 411px) {
+        #page_4 #wrap_4 #text_4 {
+          width: 100%;
+          padding: 10%; } }
+      #page_4 #wrap_4 #text_4 p {
+        font-size: 25px;
+        line-height: 1.6em;
+        margin-bottom: 65px; }
+        @media screen and (max-width: 1440px) {
+          #page_4 #wrap_4 #text_4 p {
+            font-size: 20px;
+            line-height: 1.2em;
+            margin-bottom: 65px; } }
+        @media screen and (max-width: 1024px) {
+          #page_4 #wrap_4 #text_4 p {
+            font-size: 18px;
+            line-height: 1em;
+            margin-bottom: 10px; } }
+        @media screen and (max-width: 800px) {
+          #page_4 #wrap_4 #text_4 p {
+            font-size: 13px; } }
+      #page_4 #wrap_4 #text_4 h2 {
+        margin: 40px 0;
+        font-size: 40px;
+        font-style: italic;
+        color: #d9265e; }
+        @media screen and (max-width: 1024px) {
+          #page_4 #wrap_4 #text_4 h2 {
+            margin: 30px 0;
+            font-size: 35px; } }
+        @media screen and (max-width: 800px) {
+          #page_4 #wrap_4 #text_4 h2 {
+            margin: 10px 0;
+            font-size: 25px; } }
+        @media screen and (max-width: 411px) {
+          #page_4 #wrap_4 #text_4 h2 {
+            font-size: 18px; } }
+    #page_4 #wrap_4 #img_4 {
+      width: 50%;
+      float: right; }
+      @media screen and (max-width: 411px) {
+        #page_4 #wrap_4 #img_4 {
+          display: none; } }
+
+/*# sourceMappingURL=style.css.map */
