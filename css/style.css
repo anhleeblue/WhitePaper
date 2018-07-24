@@ -28,7 +28,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  font-family: 'Rubik', sans-serif; }
+  font-family: 'Rubik', sans-serif;
+  background: white; }
 
 ol, ul {
   list-style: none; }
@@ -44,6 +45,9 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+a {
+  text-decoration: none; }
 
 #page1 img {
   max-width: 1920px; }
@@ -88,11 +92,16 @@ table {
           margin-left: 40px; }
         #content #ul_text ul li .bold_p {
           font-weight: bold; }
+        #content #ul_text ul li .span_lui {
+          padding-right: 50px; }
     #content #ul_text p {
       display: inline-block;
       margin-left: 10px; }
   #content #img_content div {
     width: 50%; }
+
+.bold_p {
+  padding-right: 10px; }
 
 b {
   font-weight: bold; }
@@ -160,7 +169,9 @@ b {
         font-size: 40px; } }
     @media screen and (max-width: 411px) {
       #page_4 h1 {
-        font-size: 20px; } }
+        font-size: 20px;
+        text-align: center;
+        margin: 0; } }
   #page_4 #wrap_4 {
     padding-top: 10%; }
     #page_4 #wrap_4:after {
@@ -236,7 +247,9 @@ b {
         font-size: 40px; } }
     @media screen and (max-width: 411px) {
       #page_5 h1 {
-        font-size: 20px; } }
+        font-size: 20px;
+        margin: 0;
+        text-align: center; } }
   #page_5 #ul_p5 ul:after {
     content: "";
     display: block;
@@ -296,5 +309,282 @@ b {
     @media screen and (max-width: 411px) {
       #page_5 #img_bot_pg5 {
         display: none; } }
+
+.h1_page {
+  margin-left: 4%;
+  font-size: 60px; }
+  @media screen and (max-width: 800px) {
+    .h1_page {
+      font-size: 40px; } }
+  @media screen and (max-width: 411px) {
+    .h1_page {
+      font-size: 20px;
+      margin: 0;
+      text-align: center; } }
+
+.h2_page {
+  font-size: 60px;
+  margin-top: 40px;
+  margin-left: 4%;
+  font-weight: bold; }
+  @media screen and (max-width: 800px) {
+    .h2_page {
+      font-size: 25px; } }
+  @media screen and (max-width: 411px) {
+    .h2_page {
+      font-size: 15px;
+      text-align: center; } }
+
+#page_6 {
+  background: url("../image/6.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 60%;
+  position: relative; }
+  @media screen and (max-width: 1024px) {
+    #page_6 {
+      background-size: contain; } }
+  #page_6 h1 {
+    margin-left: 4%;
+    font-size: 60px; }
+    @media screen and (max-width: 800px) {
+      #page_6 h1 {
+        font-size: 40px; } }
+    @media screen and (max-width: 411px) {
+      #page_6 h1 {
+        font-size: 20px;
+        margin: 0;
+        text-align: center; } }
+  #page_6 #btn_6 {
+    height: 80px;
+    width: 80%;
+    margin: 50px auto 0 auto; }
+    @media screen and (max-width: 320px) {
+      #page_6 #btn_6 {
+        height: 40px;
+        width: 90%;
+        margin: 20px auto 0 auto; } }
+    #page_6 #btn_6 ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #page_6 #btn_6 li {
+      width: 48%;
+      float: left;
+      text-align: center; }
+    #page_6 #btn_6 .btn_6 {
+      display: inline-block;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      padding: 20px 200px;
+      background: #9d2b51; }
+      @media screen and (max-width: 1024px) {
+        #page_6 #btn_6 .btn_6 {
+          padding: 10px 100px; } }
+      @media screen and (max-width: 600px) {
+        #page_6 #btn_6 .btn_6 {
+          padding: 11px 65px; } }
+      @media screen and (max-width: 411px) {
+        #page_6 #btn_6 .btn_6 {
+          padding: 5px 40px;
+          font-size: 10px; } }
+  #page_6 #img_6 ul:after {
+    content: "";
+    display: block;
+    clear: both; }
+  #page_6 #img_6 ul li {
+    width: 48%;
+    float: left;
+    padding: 0 5%; }
+  #page_6 #chart {
+    width: 80%;
+    margin: 0 auto; }
+  #page_6 p {
+    font-style: italic;
+    font-size: 12px;
+    padding: 10px 4%; }
+    @media screen and (max-width: 320px) {
+      #page_6 p {
+        font-size: 6px;
+        padding: 5px 4%; } }
+
+#page_7, #page_8, #page_9, #page_10 {
+  background: url("../image/3.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 60%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #page_7, #page_8, #page_9, #page_10 {
+      background-size: contain; } }
+  #page_7 ul:after, #page_8 ul:after, #page_9 ul:after, #page_10 ul:after {
+    content: "";
+    display: block;
+    clear: both; }
+  #page_7 ul li, #page_8 ul li, #page_9 ul li, #page_10 ul li {
+    width: 48%;
+    padding: 2%;
+    float: left; }
+    @media screen and (max-width: 600px) {
+      #page_7 ul li, #page_8 ul li, #page_9 ul li, #page_10 ul li {
+        width: 100%;
+        padding: 1% 10%; } }
+  #page_7 h2, #page_8 h2, #page_9 h2, #page_10 h2 {
+    font-size: 60px;
+    margin-top: 40px;
+    margin-left: 4%;
+    font-weight: bold; }
+    @media screen and (max-width: 1024px) {
+      #page_7 h2, #page_8 h2, #page_9 h2, #page_10 h2 {
+        font-size: 40px; } }
+    @media screen and (max-width: 800px) {
+      #page_7 h2, #page_8 h2, #page_9 h2, #page_10 h2 {
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_7 h2, #page_8 h2, #page_9 h2, #page_10 h2 {
+        font-size: 15px;
+        text-align: center; } }
+  #page_7 h3, #page_8 h3, #page_9 h3, #page_10 h3 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 4%; }
+    @media screen and (max-width: 1024px) {
+      #page_7 h3, #page_8 h3, #page_9 h3, #page_10 h3 {
+        font-size: 30px; } }
+    @media screen and (max-width: 800px) {
+      #page_7 h3, #page_8 h3, #page_9 h3, #page_10 h3 {
+        font-size: 20px; } }
+    @media screen and (max-width: 411px) {
+      #page_7 h3, #page_8 h3, #page_9 h3, #page_10 h3 {
+        font-size: 13px;
+        text-align: center; } }
+  #page_7 p, #page_8 p, #page_9 p, #page_10 p {
+    font-size: 25px;
+    line-height: 1.6em;
+    margin-bottom: 65px;
+    padding: 4%; }
+    @media screen and (max-width: 1440px) {
+      #page_7 p, #page_8 p, #page_9 p, #page_10 p {
+        font-size: 20px;
+        line-height: 1.2em;
+        margin-bottom: 65px; } }
+    @media screen and (max-width: 1024px) {
+      #page_7 p, #page_8 p, #page_9 p, #page_10 p {
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 800px) {
+      #page_7 p, #page_8 p, #page_9 p, #page_10 p {
+        font-size: 13px; } }
+    @media screen and (max-width: 600px) {
+      #page_7 p, #page_8 p, #page_9 p, #page_10 p {
+        text-align: center; } }
+  #page_7 #img_8, #page_8 #img_8, #page_9 #img_8, #page_10 #img_8 {
+    width: 80%; }
+    @media screen and (max-width: 600px) {
+      #page_7 #img_8, #page_8 #img_8, #page_9 #img_8, #page_10 #img_8 {
+        margin: 0 auto;
+        width: 50%; } }
+  #page_7 #img_9, #page_8 #img_9, #page_9 #img_9, #page_10 #img_9 {
+    width: 80%; }
+    @media screen and (max-width: 600px) {
+      #page_7 #img_9, #page_8 #img_9, #page_9 #img_9, #page_10 #img_9 {
+        margin: 0 auto;
+        width: 50%; } }
+  #page_7 #img_10, #page_8 #img_10, #page_9 #img_10, #page_10 #img_10 {
+    width: 80%; }
+    @media screen and (max-width: 600px) {
+      #page_7 #img_10, #page_8 #img_10, #page_9 #img_10, #page_10 #img_10 {
+        margin: 0 auto;
+        width: 50%; } }
+  #page_7 #ul_10, #page_8 #ul_10, #page_9 #ul_10, #page_10 #ul_10 {
+    margin-bottom: 20%; }
+  #page_7 #img10_1, #page_8 #img10_1, #page_9 #img10_1, #page_10 #img10_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%; }
+
+#page_11 {
+  background: url("../image/6.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 50%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #page_11 {
+      background-size: contain; } }
+  #page_11 .wrap_p {
+    padding: 4%; }
+  #page_11 p {
+    font-size: 25px;
+    line-height: 1.6em; }
+    @media screen and (max-width: 1440px) {
+      #page_11 p {
+        font-size: 20px;
+        line-height: 1.2em; } }
+    @media screen and (max-width: 1024px) {
+      #page_11 p {
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 800px) {
+      #page_11 p {
+        font-size: 13px; } }
+  #page_11 h2 {
+    font-size: 60px;
+    margin: 60px 0;
+    font-weight: bold; }
+    @media screen and (max-width: 600px) {
+      #page_11 h2 {
+        margin: 20px 0; } }
+    @media screen and (max-width: 1024px) {
+      #page_11 h2 {
+        font-size: 40px; } }
+    @media screen and (max-width: 800px) {
+      #page_11 h2 {
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_11 h2 {
+        font-size: 15px; } }
+  #page_11 h4 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0; }
+    @media screen and (max-width: 1024px) {
+      #page_11 h4 {
+        font-size: 20px; } }
+    @media screen and (max-width: 800px) {
+      #page_11 h4 {
+        font-size: 20px; } }
+    @media screen and (max-width: 411px) {
+      #page_11 h4 {
+        font-size: 13px; } }
+  #page_11 .div_ul_11 {
+    margin-bottom: 50px; }
+    @media screen and (max-width: 600px) {
+      #page_11 .div_ul_11 {
+        margin-bottom: 20px; } }
+    #page_11 .div_ul_11 ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #page_11 .div_ul_11 ul li {
+      width: 30%;
+      float: left; }
+    @media screen and (max-width: 600px) {
+      #page_11 .div_ul_11 ul {
+        width: 100%; } }
+  #page_11 .span_11 {
+    margin: 30px 0; }
+    #page_11 .span_11 span {
+      padding-right: 30px; }
+      @media screen and (max-width: 411px) {
+        #page_11 .span_11 span {
+          padding-right: 5px; } }
+  #page_11 .end_p_11 {
+    margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
