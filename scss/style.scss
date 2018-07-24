@@ -655,3 +655,537 @@ b{
     }
     
 }
+#page_12{
+    background: url("../image/6.png") no-repeat;
+    background-size:cover;
+    background-position-x:center;
+    padding-top: 50%;
+    position: relative;
+    @include mQ(600px){
+        background-size: contain;
+    }
+    h2{
+        font-size:60px;
+         margin:20px 0 100px 0;
+         font-weight: bold;
+    @include mQ(1440px){
+        font-size:45px;
+    }
+    @include mQ(600px){
+        margin:20px 0;
+    }    
+       
+    @include mQ(1024px){
+        font-size: 40px;
+    }
+    @include mQ(800px){
+        margin:20px 0 40px 0;
+    font-size: 25px;
+    }
+    @include mQ(411px){
+        font-size: 15px;
+    }
+    }
+    p{
+        font-size: 25px;
+        line-height: 1.6em;
+        margin-bottom:20px;
+        
+      
+        @include mQ(1440px){
+            font-size: 20px;
+            line-height: 1.2em;
+            
+        }
+        @include mQ(1024px){
+            font-size: 18px;
+            line-height: 1em;
+            margin-bottom: 10px;
+        }
+        @include mQ(800px){
+            font-size: 13px;
+        }
+    }
+    #ul_12{
+        padding: 0 4% 4% 4%;
+        ul{
+            @include clearFix;
+            li{
+                width: 48%;
+                float: left;
+                padding:4%;
+                @include mQ(600px){
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .hr_p_12{
+        text-align: center;
+        color:#d780b2;
+        font-style: italic;
+        margin: 50px 0;
+        p{
+            margin-bottom: 0;
+        }
+        .mid_hr{
+            padding: 20px;
+        }
+        .hr_{
+            height: 2px;
+    display: inline-block;
+    width: 50%;
+    border-bottom: 2px solid #d780b2;
+    
+        }
+    }
+}
+#page_13{
+    background: url("../image/6.png") no-repeat;
+    background-size:cover;
+    background-position-x:center;
+    padding-top: 50%;
+    position: relative;
+    @include mQ(600px){
+        background-size: contain;
+    }
+    h2{
+        font-size:60px;
+         margin:20px 0 100px 0;
+         font-weight: bold;
+    @include mQ(1440px){
+        font-size:45px;
+    }
+    @include mQ(600px){
+        margin:20px 0;
+    }    
+       
+    @include mQ(1024px){
+        font-size: 40px;
+    }
+    @include mQ(800px){
+        margin:20px 0 40px 0;
+    font-size: 25px;
+    }
+    @include mQ(411px){
+        font-size: 15px;
+    }
+    }
+    p{
+        font-size: 25px;
+        line-height: 1.6em;
+        margin-bottom:20px;
+        
+      
+        @include mQ(1440px){
+            font-size: 20px;
+            line-height: 1.2em;
+            
+        }
+        @include mQ(1024px){
+            font-size: 18px;
+            line-height: 1em;
+            margin-bottom: 10px;
+        }
+        @include mQ(800px){
+            font-size: 13px;
+        }
+    }
+    .end_p_13{
+        font-size: smaller;
+        font-style: italic;
+        text-align: end;
+        @include mQ(800px){
+            font-size: 8px;
+        }
+    }
+    .span_13{
+        margin: 30px 0;
+        span{
+            padding-right: 30px;
+        }
+        
+    }
+    
+}
+.end_p_13{
+    font-size: smaller;
+    font-style: italic;
+    text-align: end;
+    @include mQ(800px){
+        font-size: 8px;
+    }
+}
+sup{
+    vertical-align: super;
+    font-size: smaller;
+}
+.wrap_13{
+    padding: 0 8% 8% 8%;
+}
+#page_14{
+    background: url("../image/6.png") no-repeat;
+    background-size:cover;
+    background-position-x:center;
+    padding-top: 50%;
+    position: relative;
+    @include mQ(600px){
+        background-size: contain;
+    }
+    h2{
+        font-size:60px;
+         margin:20px 0 100px 0;
+         font-weight: bold;
+    @include mQ(1440px){
+        font-size:45px;
+    }
+    @include mQ(600px){
+        margin:20px 0;
+    }    
+       
+    @include mQ(1024px){
+        font-size: 40px;
+    }
+    @include mQ(800px){
+        margin:20px 0 40px 0;
+    font-size: 25px;
+    }
+    @include mQ(411px){
+        font-size: 15px;
+    }
+    }
+    p{
+        font-size: 25px;
+        line-height: 1.6em;
+        margin-bottom:20px;
+        
+      
+        @include mQ(1440px){
+            font-size: 20px;
+            line-height: 1.2em;
+            
+        }
+        @include mQ(1024px){
+            font-size: 18px;
+            line-height: 1em;
+            margin-bottom: 10px;
+        }
+        @include mQ(800px){
+            font-size: 13px;
+        }
+    }
+    .p_14{
+        margin: 50px 0;
+        @include mQ(800px){
+            margin: 20px 0;
+        }
+    }
+
+}
+#page_15,#page_16,#page_17,#page_18,#page_19,#page_20{
+    background: url("../image/4.png") no-repeat;
+    background-size:cover;
+    background-position-x:center;
+    padding-top: 50%;
+    position: relative;
+    @include mQ(600px){
+        background-size: contain;
+    }
+    h1{       
+        font-size:60px;
+        margin-bottom: 50px;
+        @include mQ(800px){
+            font-size: 40px;
+        }
+        @include mQ(411px){
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+    h2{
+        font-size: 40px;
+        font-style: italic;
+        text-align: center;
+        margin:60px 0;
+        color: #d9265e;
+        @include mQ(800px){
+            margin: 10px 0;
+            font-size: 25px;
+        }
+        @include mQ(411px){
+            font-size: 18px;
+            margin:10px 0;
+        }
+        
+    }
+
+    p{
+        font-size: 25px;
+        line-height: 1.6em;
+        margin-bottom:20px;
+        
+      
+        @include mQ(1440px){
+            font-size: 20px;
+            line-height: 1.2em;
+            
+        }
+        @include mQ(1024px){
+            font-size: 18px;
+            line-height: 1em;
+            margin-bottom: 10px;
+        }
+        @include mQ(800px){
+            font-size: 13px;
+        }
+    }
+    #img_15{
+    width: 50%;
+    margin: 40px auto 0 auto;
+    }
+    
+}
+#page_16{
+    #ul_16{
+        ul{
+            @include clearFix;
+            li{
+                width: 48%;
+                float: left;
+                padding:2%;
+                @include mQ(800px){
+                    width:100%;
+                }
+            }
+
+        }
+    }
+    #img_16{
+        width: 50%;
+        margin: 40px auto 0 auto;
+        }
+        h3{
+        font-weight: bold; 
+        font-size:50px;
+        margin-top:20px;
+        margin-bottom: 10px;
+        @include mQ(1024px){
+            font-size: 30px;
+        }
+        @include mQ(800px){
+        
+        font-size: 20px;
+        }
+        @include mQ(411px){
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        }
+}
+#page_17{
+    #ul_17{
+        ul{
+            @include clearFix;
+            li{
+                width: 30%;
+                float:left;
+                padding: 2%;
+            text-align: center;
+            @include mQ(600px){
+                width: 100%;
+            }
+            }
+            .li_2_17{
+                width: 32%;
+                @include mQ(600px){
+                    width: 100%;
+                }
+            }
+        }
+        .ul_2_17{
+            li{
+                width: 48%;
+                @include mQ(600px){
+                    width: 100%;
+                }
+            }
+        }
+    }
+    h3{
+        font-weight: bold; 
+        font-size:50px;
+        margin-top:20px;
+        margin-bottom: 10px;
+        @include mQ(1024px){
+            font-size: 30px;
+        }
+        @include mQ(800px){
+        
+        font-size: 20px;
+        }
+        @include mQ(411px){
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        }
+        .img_17{
+            
+    margin: 0 auto;
+    @include mQ(600px){
+        width: 60%;
+    }
+        }
+}
+.img_18_right_mobi{
+    display: none;
+    @include clearFix;
+    @include mQ(411px){
+        display: block;
+    }
+    .img_18{
+        width: 40%;
+        float: left;
+        margin:0 auto;
+        padding:5%;
+    }
+}
+#page_18{
+    h3{
+        font-weight: bold; 
+        font-size:50px;
+        margin-top:20px;
+        margin-bottom: 10px;
+        @include mQ(1024px){
+            font-size: 30px;
+        }
+        @include mQ(800px){
+        
+        font-size: 20px;
+        }
+        @include mQ(411px){
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        }
+    #ul_18{
+        ul{
+            @include clearFix;
+            .li_1_18{
+                width:65%;
+                float:left;
+                @include mQ(411px){
+                    width: 100%;
+                }
+            }
+            .li_2_18{
+                width:25%;
+                float:right;
+                @include mQ(411px){
+                    width: 100%;
+
+                }
+                .img_18_right{
+                    @include mQ(411px){
+                        display:none;
+    
+                    }
+                }
+                
+            }
+        }
+    }
+    .end_p_13{
+        font-size: smaller;
+        font-style: italic;
+        text-align: end;
+        @include mQ(800px){
+            font-size: 8px;
+        }
+    }
+}
+#page_19{
+    h3{
+        font-weight: bold; 
+        font-size:50px;
+        margin-top:20px;
+        margin-bottom: 10px;
+        @include mQ(1024px){
+            font-size: 30px;
+        }
+        @include mQ(800px){
+        
+        font-size: 20px;
+        }
+        @include mQ(411px){
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        }
+    
+}
+.ul_19{
+    ul{
+        list-style-type: none;
+        @include clearFix;
+        li{
+            
+            width:25%;
+            padding:2%;
+            float:left;
+            @include mQ(1024px){
+                padding: 1%;
+            }
+            @include mQ(600px){
+                width:48%;
+                padding: 5px;
+                float:left;
+                &:nth-child(even){
+                    float:right;
+                }
+                &:nth-child(odd){
+                    clear: left;
+                }
+                
+            }
+            @include mQ(320px){
+                width: 100%;
+
+            }
+        }
+    }
+    .img_19{
+        @include mQ(320px){
+            width:50%;
+            margin:0 auto;
+        }
+    }
+}
+#page_20{
+    h3{
+        font-weight: bold; 
+        font-size: 50px;
+        margin-top:20px;        
+        margin-bottom: 10px;
+        @include mQ(1680px){
+            font-size: 40px;
+        }
+        
+        @include mQ(1024px){
+            font-size: 35px;
+        }
+        @include mQ(800px){
+        
+        font-size: 20px;
+        }
+        @include mQ(411px){
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        }
+}

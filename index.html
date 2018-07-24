@@ -602,6 +602,503 @@ and so much more
                     <div class="page" style="display: inline-block;">Pg <b>11</b> </div>
             </div>
         </section>
+        <section id="page_12">
+            <div id="ul_12">
+                <ul>
+                    <li>
+                        <h2>Player Coins
+                        </h2>
+                        <p>Player Coins are not a single coin, rather an
+                            umbrella term that covers all personalized,
+                            individual Player Coins. Individual Player Coins
+                            will have different tickers of the format __COT,
+                            where __ can be any combination of 2 or 3 letters
+                            dependent on the issuer. An example of this would
+                            be Kazumi Noomi issuing KNCOT. There is no limit
+                            to how many different Player Coins are in existence,
+                            and Players on the platform may issue a Player Coin
+                            freely. As such, at any point in time there will be
+                            many, varying Player Coins active in the ecosystem
+                            with both high and low values.</p>
+                        <p>Player Coins are classified as Smart Tokens. In
+                            addition to standard ERC20 code, Smart Tokens
+                            have further logic in place that allows them to
+                            interact in different ways.</p>
+                        <p>Utilising this extra code, Player Coins have:</p>
+                        <div class="hr_p_12">
+                            <p>- Constant liquidity -</p>
+                            <div class="hr_"></div>
+                            <p class="mid_hr">- Predictable price fluctuations
+                                based on demand -</p>
+                            <div class="hr_"></div>
+                            <p>- A low volatility -
+                            </p>
+                        </div>
+                        <p>The mechanisms behind the liquidity and price
+                            of Player Coins will be elaborated on later in this
+                            document.</p>
+                    </li>
+                    <li>
+                        <h2>Issuing a Player Coin</h2>
+                        <p>To issue a Player Coin, the Player must provide a
+                            reserve amount of COT tokens to a dedicated smart
+                            contract. This is called the initial COT Reserve Fund,
+                            and is instrumental in calculating the price and
+                            therefore volatility of the Player Coin. 
+                        </p>
+                        <p>A Fixed Reserve Ratio governs the amount of COT
+                            in the COT Reserve Fund compared to the Player
+                            Coin’s Total Value, or Marketcap:
+                        </p>
+                        <div class="img_12">
+                            <img src="image/1_11.png" width="100%"alt="">                            
+                        </div>
+                        <p>where </p>
+                        <div class="img_12">
+                            <img src="image/2_12.png" width="100%"alt="">                            
+                        </div>
+                        <p>The recommended Fixed Reserve Ratio for Player
+                            Coins is 0.01 - 0.05, or 1% - 5%. A value of 3% has
+                            been found to provide the best balance between
+                            liquidity and price volatility in most cases. 
+                        </p>
+                        <p>Once a Player Coin has been created, anyone can
+                            send COT into the Smart Contract to effectively
+                            ‘buy’ the Player Coin at any time. The contract
+                            will mint new Player Coins to maintain the Fixed
+                            Reserve Ratio between the now higher amount of
+                            COT in the COT Reserve Fund and the Total Player
+                            Coin Supply. Player Coins may also be sent back
+                            into the contract in return for COT, effectively
+                            ‘selling’ the Player Coin and reducing the COT in the
+                            COT Reserve Fund.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="wrap_page" style="text-align: center;">
+                <div class="page" style="display: inline-block;">Pg <b>12</b> </div>
+        </div>
+        </section>
+        <section id="page_13">
+            <div class="wrap_13">
+                <h2>Player Coins
+                </h2>
+                <p>The price of a Player Coin is based on a the current supply and Fixed Reserve Ratio. Equations (1) and
+                    (2) (above) can be combined and rearranged to form a relationship between Player Coin Price, the COT
+                    Reserve Fund, the Total Player Coin Supply, and the Fixed Reserve Ratio:</p>
+                <div class="img_13">
+                        <img src="image/3_13.png" width="100%"alt="">                            
+                </div>
+                <p>This allows the Player Coin Price to vary as more Player Coins are: </p>
+                <div class="span_13">
+                    <p><span>.</span>Bought (COT Reserve Fund and Total Player Coin Supply both increase) </p>
+                    <p><span>.</span>Sold (COT Reserve Fund and Total Player Coin Supply both decrease) </p>                
+                </div>
+                <p>As the Total Player Coin Supply is a function of the COT Reserve Fund, this price can be modelled against
+                    the Total Player Coin Supply for differing Fixed Reserve Ratio values. 
+                </p>
+                <p>However, this price is calculated based on a single point in time. As a simplified example, if a user was to
+                    purchase 10 tokens, the token price would increase 10 times as each token was bought. Using the above
+                    equations millions of times per transaction to approximate each individual price-point is wasteful and
+                    imprecise. Further price calculations are therefore necessary. 
+                </p>
+                <p>The following integral equation is used to calculate the end amount of Player Coins received based on the
+                    amount of COT Paid and infinitely many changes in price over the course of the transaction. </p>
+                <div class="img_13">
+                    <img src="image/4_13.png" width="100%"alt="">                            
+                </div>
+                <p>A full mathematical proof of this equation can be found in Bancor’s Whitepaper.<sup>1</sup></p>
+                <p class="end_p_13"> storage.googleapis.com/website-bancor/2018/04/01ba8253-bancor_protocol_whitepaper_en.pdf
+                </p>
+        </div>
+            <div class="wrap_page" style="text-align: center;">
+                <div class="page" style="display: inline-block;">Pg <b>13</b> </div>
+        </div>
+        </section>   
+        <section id="page_14">
+            <div class="wrap_13">
+                    <h2>Service and Token Flow</h2>
+                    <p>Player who wants to provide services or start a new project on the Cure WorldCosplay platform will have
+                    the option to issue and sell their own Player Coin. The steps for it are as follows (pictured below):</p>
+                    <div class="p_14">
+                        <p><span class="bold_p">1.</span> The Player purchases COT from an exchange. </p>
+                        <p><span class="bold_p">2.</span>  The Player creates their personal Player Coin through the Cure Protocol.</br>
+                            Token price at launch and total issued supply will be decided as per equations above </p>
+                        <p><span class="bold_p">3.</span>  The Player sells their personal Player Coin to Users or Angel Investors.  </p>
+                        <p><span class="bold_p">4.</span>  The Player sets the required Player Coin amount held for the right of using services provided by the</br>
+                            Player, such as access to original content and invitations to exclusive events.  </p>
+                    </div>
+                    <p>Additional possible COT and Player Coin movements:</p>
+                    <div class="p_14">
+                            <p><span class="bold_p">1.</span>  Users may purchase their chosen Player Coins directly by transferring COT to the Cure Protocol </p>
+                            <p><span class="bold_p">2.</span>  Player Coin holders can exchange different Player Coins directly via the Cure Protocol </p>
+                            <p><span class="bold_p">3.</span>   Additional allocations for collaborative efforts will be distributed based on evaluations automatically by</br>
+                                smart contracts. </p>
+                    </div>
+                    <div id="img_14">
+                        <img src="image/img_14.png" width="100%" alt="">
+                    </div>
+            </div>
+            <div class="wrap_page" style="text-align: center;">
+                    <div class="page" style="display: inline-block;">Pg <b>14</b> </div>
+            </div>
             
+        </section> 
+        <section id="page_15">
+            <div class="wrap_13">
+                <h1 class="red_text">Perfect for Cosplayers</h1>
+                <p>Using the Cure WorldCosplay ecosystem, players will be able to create and distribute their own
+                        personalised coin. This unique feature will bring power back to cosplayers, enabling them to monetize
+                        themselves as these coins can be used to tip players as well as purchase merchandise or event tickets.
+                        Player Coins will provide an accessible platform for cosplayers to promote their identity to the continuously
+                        growing 720,000 member-base of Cure WorldCosplay, as they will be directly attainable by fans. These
+                        coins will also allow cosplayers to develop deeper relationships with their communities, as users will be able
+                        to explicitly show their support while also gamifying their experience.</p>
+                <h2>
+                        As a cosplayer, creating your own token is easy!
+                </h2>
+                <div class="p_15">
+                        <p><span class="bold_p">1.</span> The Player purchases COT from an exchange. </p>
+                        <p><span class="bold_p">2.</span>  The Player creates their personal Player Coin through the Cure Protocol.</br>
+                            Token price at launch and total issued supply will be decided as per equations above </p>
+                        <p><span class="bold_p">3.</span>  The Player sells their personal Player Coin to Users or Angel Investors.  </p>
+                        <p><span class="bold_p">4.</span>  The Player sets the required Player Coin amount held for the right of using services provided by the</br>
+                            Player, such as access to original content and invitations to exclusive events.  </p>
+                    </div>
+                <p>A more detailed example process is included below in Token Use-Case Examples.</p>
+                <div id="img_15">
+                    <img src="image/img_15.png" width="100%" alt="">
+                </div>
+            </div>
+            <div class="wrap_page" style="text-align: center;">
+                    <div class="page" style="display: inline-block;">Pg <b>15</b> </div>
+            </div>
+        </section>
+        <section id="page_16">
+            <div class="wrap_13">
+                <p>These Player Coins can be used by players and their user-base in areas such as:</p>
+                <div id="ul_16">
+                    <ul>
+                        <li>
+                            <h3>Payments</h3>
+                            <p>Cure WorldCosplay will develop tools for cosplayers
+                                    to accept payments in their own Player Coins.
+                                    Players, make up artists and photographers will
+                                    be able to set up their own shop on the Cure
+                                    WorldCosplay platform to sell costumes and albums,
+                                    as well as being able to accept their own coins for
+                                    payments at events and on external websites.</p>
+                        </li>
+                      
+                            <li>
+                                    <h3>Incentives</h3>
+                                    <p>Cosplayers can incentivise their fans to use
+                                            their coins by offering exclusive content and
+                                            opportunities to holders. Live stream access, meet
+                                            and greets and prizes could be awarded to holders.
+                                            Merchandise bought from the players shop could
+                                            be personally signed and leaderboards of top fans
+                                            could be displayed.</p>
+                                </li>
+                                
+                    </ul>
+                    <ul>
+                            <li>
+                                    <h3>Tips</h3>
+                                    <p>Cosplayers can elect to have a tip button associated
+                                            with content and media they post. Additionally,
+                                            cosplayers could decide to reward tippers with
+                                            bonus content, or unlock further content after set
+                                            milestones.</p>
+                                </li>
+                                <li>
+                                        <h3>Reputations</h3>
+                                        <p>Histories of Player Coins held, tips and payments
+                                                made or items purchased from Cosplayers’ stores
+                                                with Player Coins all serve as an immutable
+                                                reputation mechanism, allowing Cosplayers to trust
+                                                their fans</p>
+                                    </li>
+                    </ul>
+
+                </div>
+                <div id="img_16">
+                        <img src="image/img_15.png" width="100%" alt="">
+                    </div>
+            </div>
+            <div class="wrap_page" style="text-align: center;">
+                    <div class="page" style="display: inline-block;">Pg <b>16</b> </div>
+            </div>
+        </section>
+        <section id="page_17">
+            <div class="wrap_13">
+                <h1 class="red_text">COT and Player Coin Use-Case Examples</h1>
+                <h3>Example - Kazumi Noomi Creates KNCOT</h3>
+                <div id="ul_17">
+                    <ul>
+                        <li>
+                            <div class="img_17">
+                                <img src="image/1_17.png" width="100%" alt="">
+                            </div>
+                            <p>Kazumi Noomi wishes to
+                                    create her own Kazumi Noomi
+                                    Coin for use in her store on
+                                   <spa class="bold_p">worldcosplay.net</span> </p>
+                        </li>
+                        <li class="li_2_17">
+                                <div class="img_17">
+                                    <img src="image/2_17.png" width="100%" alt="">
+                                </div>
+                                <p>Kazumi Noomi sends COT into the
+                                        Cure Protocol, and creates her KNCOT
+                                        (Kazumi Noomi Cosplay Token/Coin)
+                                        easily through the Cure WorldCosplay
+                                        platform. The smart contract sends
+                                        Kazumi Noomi the initial pool of
+                                        KNCOT coins.</p>
+                            </li>
+                            <li>
+                                    <div class="img_17">
+                                        <img src="image/3_17.png" width="100%" alt="">
+                                    </div>
+                                    <p>Kazumi Noomi lists prices on
+                                            her store. She organises some
+                                            giveaways, prizes, exclusive
+                                            opportunities and more for
+                                            her fans and KNCOT holders.</p>
+                                </li>
+                        
+                    </ul>
+                    <ul class="ul_2_17">
+                            <li>
+                                    <div class="img_17">
+                                        <img src="image/5_17.png" width="100%" alt="">
+                                    </div>
+                                    <p>Kazumi Noomi’s fans send
+                                            COT to the Cure Protocol and
+                                            receive KNCOT in return.</p>
+                                </li>
+                                <li>
+                                        <div class="img_17">
+                                            <img src="image/5_17.png" width="100%" alt="">
+                                        </div>
+                                        <p>Fans can spend their KNCOT on Kazumi Noomi
+                                                merchandise, hold them to show they’re the
+                                                biggest fan or even tip Kazumi Noomi or eachother</p>
+                                    </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap_page" style="text-align: center;">
+                    <div class="page" style="display: inline-block;">Pg <b>17</b> </div>
+            </div>
+        </section>
+        <section id="page_18">
+            <div class="wrap_13">
+            <h1 class="red_text">
+                    COT and Player Coin Use-Case Examples
+            </h1>
+            <h3>Example - Kazumi Noomi’s KNCOT Coin Price Variation</h3>
+            <div id="ul_18">
+                <ul>
+                    <li class="li_1_18">
+                        <p><span class="bold_p">1: </span> Kazumi Noomi has decided to make her own Player Coin, KNCOT. She decides
+                            to use 200 COT for the COT Reserve Fund, with a Fixed Reserve Ratio of 20%.
+                            This means she receives 1000 KNCOT
+                            </p>
+                        <p><span class="bold_p">2: </span> Kazumi Noomi has decided to make her own Player Coin, KNCOT. She decides
+                            to use 200 COT for the COT Reserve Fund, with a Fixed Reserve Ratio of 20%.
+                            This means she receives 1000 KNCOT
+                            </p>
+                        <div class="img_18">
+                            <img src="image/1_18.png" width="100%" alt="">
+                        </div>
+                        <p><span class="bold_p">3: </span>  A Kazumi Noomi fan wishes to exchange another 200 COT for some KNCOT
+                            of their own. The price changes as each token is bought, so equation (4) is used
+                            to calculate the total amount of KNOT issued:
+                            </p>  
+                        <div class="img_18">
+                            <img src="image/2_18.png" width="100%" alt="">
+                        </div>
+                        <p><span class="bold_p">4: </span>The price of KNCOT will now have increased due to an increase in supply:
+                            </p>
+                        <div class="img_18">
+                                    <img src="image/3_18.png" width="100%" alt="">
+                        </div>  
+                    </li>
+                    <li class="li_2_18">
+                            <div class="img_18 img_18_right">
+                                    <img src="image/4_18.png" width="100%" alt="">
+
+                                </div>
+                            <div class="img_18_right_mobi">
+                                    <div class="img_18">
+                                            <img src="image/4_1_18.png" width="100%" alt="">
+                                    </div>
+                                    <div class="img_18">
+                                            <img src="image/4_2_18.png" width="100%" alt="">
+                                    </div>                                  
+    
+                            </div>
+                    </li>
+                </ul>
+            </div>
+            <p class="end_p_13">Note: The numbers in the above example have been chosen purely for simplicity’s sake</p>
+        </div>
+        
+        <div class="wrap_page" style="text-align: center;">
+                <div class="page" style="display: inline-block;">Pg <b>18</b> </div>
+        </div>
+        </section>
+        <section id="page_19">
+            <div class="wrap_13">
+                <h1 class="red_text">Ambassadors</h1>
+                <div class="ul_19">
+                    <ul>
+                        <li>
+                            <div class="img_19">
+                                <img src="image/1_19.png" width="100%" alt="">
+                            </div>
+                            <h3>Kazumi Noomi </h3>
+                            <p>A multilingual cosplayer
+                                    from Taiwan, Kazumi
+                                    speaks five languages
+                                    and is known as a model
+                                    and active entrepreneur.
+                                    She started cosplay
+                                    in 2002 and has been
+                                    amazingly active in the
+                                    Cosplay scene.</p>
+                        </li>
+                        <li>
+                                <div class="img_19">
+                                    <img src="image/2_19.png" width="100%" alt="">
+                                </div>
+                                <h3>Pugoffka </h3>
+                                <p>A cosplayer and
+                                        cosplay photographer
+                                        from the Ukraine. Her
+                                        photography career
+                                        started in 2009, and
+                                        she has been involved
+                                        in over 700 cosplay
+                                        photoshoots.</p>
+                            </li>
+                        <li>
+                            <div class="img_19">
+                                <img src="image/3_19.png" width="100%" alt="">
+                            </div>
+                            <h3>Ely</h3>
+                            <p>A cosplayer from Taiwan.
+                                    Ely loves cosplay and
+                                    Anime, Comic, and
+                                    Games (ACG) culture
+                                    so much. She has
+                                    been creating her own
+                                    character photo book
+                                    and has been invited to
+                                    many cosplay events as
+                                    a special guest.</p>
+                        </li>
+                        <li>
+                            <div class="img_19">
+                                <img src="image/4_19.png" width="100%" alt="">
+                            </div>
+                            <h3>Gesha</h3>
+                            <p>Gesha is a Russian
+                                    cosplayer who has been
+                                    internationally active
+                                    for five years. He’s also
+                                    known as a wig maker
+                                    and a model. He travels
+                                    a lot and loves Asian
+                                    countries, especially
+                                    Japan, and is currently
+                                    based in China.
+                                    </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap_page" style="text-align: center;">
+                    <div class="page" style="display: inline-block;">Pg <b>19</b> </div>
+            </div>
+        </section>
+        <section id="page_20">
+                <div class="wrap_13">
+                        
+                        <div class="ul_19">
+                            <ul>
+                                <li>
+                                    <div class="img_19">
+                                        <img src="image/1_20.png" width="100%" alt="">
+                                    </div>
+                                    <h3 class="h3_20">Rikachuu </h3>
+                                    <p>A cosplayer from
+                                            Canada whose goal
+                                            is to travel and go to
+                                            conventions all around
+                                            the world! Rikachuu
+                                            loves cosplay and has
+                                            been creating and
+                                            modelling cosplay for
+                                            over eight years.</p>
+                                </li>
+                                <li>
+                                        <div class="img_19">
+                                            <img src="image/2_20.png" width="100%" alt="">
+                                        </div>
+                                        <h3 class="h3_20">SeeU  </h3>
+                                        <p>SeeU is China’s number
+                                                1 female cosplayer,
+                                                followed by over 800K
+                                                fans on Weibo. She’s
+                                                especially famous
+                                                in Asia and is a
+                                                professional illustrator
+                                                whose work has been
+                                                adapted into many
+                                                games in China.</p>
+                                    </li>
+                                <li>
+                                    <div class="img_19">
+                                        <img src="image/3_20.png" width="100%" alt="">
+                                    </div>
+                                    <h3>Mikhai (A.Z.Production)</h3>
+                                    <p>Mikhail is a cosplay
+                                            photographer from
+                                            Germany. He has
+                                            always been a keen
+                                            photographer, however,
+                                            since 2014 he’s been
+                                            counting cosplay
+                                            photography as his
+                                            biggest passion.</p>
+                                </li>
+                                <li>
+                                    <div class="img_19">
+                                        <img src="image/4_20.png" width="100%" alt="">
+                                    </div>
+                                    <h3>Isis
+                                            Vasconcellos</h3>
+                                    <p>Isis is a cosplayer
+                                            from Brazil, who runs
+                                            a popular YouTube
+                                            channel. Her specialty is
+                                            singing and playing the
+                                            piano to cover songs.
+                                            When she performs
+                                            anime songs, she does
+                                            so in the costume of the
+                                            character.
+                                            </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wrap_page" style="text-align: center;">
+                            <div class="page" style="display: inline-block;">Pg <b>20</b> </div>
+                    </div>
+        </section>
 </body>
 </html>

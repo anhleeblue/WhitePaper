@@ -587,4 +587,449 @@ b {
   #page_11 .end_p_11 {
     margin-top: 30px; }
 
+#page_12 {
+  background: url("../image/6.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 50%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #page_12 {
+      background-size: contain; } }
+  #page_12 h2 {
+    font-size: 60px;
+    margin: 20px 0 100px 0;
+    font-weight: bold; }
+    @media screen and (max-width: 1440px) {
+      #page_12 h2 {
+        font-size: 45px; } }
+    @media screen and (max-width: 600px) {
+      #page_12 h2 {
+        margin: 20px 0; } }
+    @media screen and (max-width: 1024px) {
+      #page_12 h2 {
+        font-size: 40px; } }
+    @media screen and (max-width: 800px) {
+      #page_12 h2 {
+        margin: 20px 0 40px 0;
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_12 h2 {
+        font-size: 15px; } }
+  #page_12 p {
+    font-size: 25px;
+    line-height: 1.6em;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 1440px) {
+      #page_12 p {
+        font-size: 20px;
+        line-height: 1.2em; } }
+    @media screen and (max-width: 1024px) {
+      #page_12 p {
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 800px) {
+      #page_12 p {
+        font-size: 13px; } }
+  #page_12 #ul_12 {
+    padding: 0 4% 4% 4%; }
+    #page_12 #ul_12 ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #page_12 #ul_12 ul li {
+      width: 48%;
+      float: left;
+      padding: 4%; }
+      @media screen and (max-width: 600px) {
+        #page_12 #ul_12 ul li {
+          width: 100%; } }
+  #page_12 .hr_p_12 {
+    text-align: center;
+    color: #d780b2;
+    font-style: italic;
+    margin: 50px 0; }
+    #page_12 .hr_p_12 p {
+      margin-bottom: 0; }
+    #page_12 .hr_p_12 .mid_hr {
+      padding: 20px; }
+    #page_12 .hr_p_12 .hr_ {
+      height: 2px;
+      display: inline-block;
+      width: 50%;
+      border-bottom: 2px solid #d780b2; }
+
+#page_13 {
+  background: url("../image/6.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 50%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #page_13 {
+      background-size: contain; } }
+  #page_13 h2 {
+    font-size: 60px;
+    margin: 20px 0 100px 0;
+    font-weight: bold; }
+    @media screen and (max-width: 1440px) {
+      #page_13 h2 {
+        font-size: 45px; } }
+    @media screen and (max-width: 600px) {
+      #page_13 h2 {
+        margin: 20px 0; } }
+    @media screen and (max-width: 1024px) {
+      #page_13 h2 {
+        font-size: 40px; } }
+    @media screen and (max-width: 800px) {
+      #page_13 h2 {
+        margin: 20px 0 40px 0;
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_13 h2 {
+        font-size: 15px; } }
+  #page_13 p {
+    font-size: 25px;
+    line-height: 1.6em;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 1440px) {
+      #page_13 p {
+        font-size: 20px;
+        line-height: 1.2em; } }
+    @media screen and (max-width: 1024px) {
+      #page_13 p {
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 800px) {
+      #page_13 p {
+        font-size: 13px; } }
+  #page_13 .end_p_13 {
+    font-size: smaller;
+    font-style: italic;
+    text-align: end; }
+    @media screen and (max-width: 800px) {
+      #page_13 .end_p_13 {
+        font-size: 8px; } }
+  #page_13 .span_13 {
+    margin: 30px 0; }
+    #page_13 .span_13 span {
+      padding-right: 30px; }
+
+.end_p_13 {
+  font-size: smaller;
+  font-style: italic;
+  text-align: end; }
+  @media screen and (max-width: 800px) {
+    .end_p_13 {
+      font-size: 8px; } }
+
+sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+.wrap_13 {
+  padding: 0 8% 8% 8%; }
+
+#page_14 {
+  background: url("../image/6.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 50%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #page_14 {
+      background-size: contain; } }
+  #page_14 h2 {
+    font-size: 60px;
+    margin: 20px 0 100px 0;
+    font-weight: bold; }
+    @media screen and (max-width: 1440px) {
+      #page_14 h2 {
+        font-size: 45px; } }
+    @media screen and (max-width: 600px) {
+      #page_14 h2 {
+        margin: 20px 0; } }
+    @media screen and (max-width: 1024px) {
+      #page_14 h2 {
+        font-size: 40px; } }
+    @media screen and (max-width: 800px) {
+      #page_14 h2 {
+        margin: 20px 0 40px 0;
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_14 h2 {
+        font-size: 15px; } }
+  #page_14 p {
+    font-size: 25px;
+    line-height: 1.6em;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 1440px) {
+      #page_14 p {
+        font-size: 20px;
+        line-height: 1.2em; } }
+    @media screen and (max-width: 1024px) {
+      #page_14 p {
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 800px) {
+      #page_14 p {
+        font-size: 13px; } }
+  #page_14 .p_14 {
+    margin: 50px 0; }
+    @media screen and (max-width: 800px) {
+      #page_14 .p_14 {
+        margin: 20px 0; } }
+
+#page_15, #page_16, #page_17, #page_18, #page_19, #page_20 {
+  background: url("../image/4.png") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-top: 50%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #page_15, #page_16, #page_17, #page_18, #page_19, #page_20 {
+      background-size: contain; } }
+  #page_15 h1, #page_16 h1, #page_17 h1, #page_18 h1, #page_19 h1, #page_20 h1 {
+    font-size: 60px;
+    margin-bottom: 50px; }
+    @media screen and (max-width: 800px) {
+      #page_15 h1, #page_16 h1, #page_17 h1, #page_18 h1, #page_19 h1, #page_20 h1 {
+        font-size: 40px; } }
+    @media screen and (max-width: 411px) {
+      #page_15 h1, #page_16 h1, #page_17 h1, #page_18 h1, #page_19 h1, #page_20 h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px; } }
+  #page_15 h2, #page_16 h2, #page_17 h2, #page_18 h2, #page_19 h2, #page_20 h2 {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin: 60px 0;
+    color: #d9265e; }
+    @media screen and (max-width: 800px) {
+      #page_15 h2, #page_16 h2, #page_17 h2, #page_18 h2, #page_19 h2, #page_20 h2 {
+        margin: 10px 0;
+        font-size: 25px; } }
+    @media screen and (max-width: 411px) {
+      #page_15 h2, #page_16 h2, #page_17 h2, #page_18 h2, #page_19 h2, #page_20 h2 {
+        font-size: 18px;
+        margin: 10px 0; } }
+  #page_15 p, #page_16 p, #page_17 p, #page_18 p, #page_19 p, #page_20 p {
+    font-size: 25px;
+    line-height: 1.6em;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 1440px) {
+      #page_15 p, #page_16 p, #page_17 p, #page_18 p, #page_19 p, #page_20 p {
+        font-size: 20px;
+        line-height: 1.2em; } }
+    @media screen and (max-width: 1024px) {
+      #page_15 p, #page_16 p, #page_17 p, #page_18 p, #page_19 p, #page_20 p {
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 800px) {
+      #page_15 p, #page_16 p, #page_17 p, #page_18 p, #page_19 p, #page_20 p {
+        font-size: 13px; } }
+  #page_15 #img_15, #page_16 #img_15, #page_17 #img_15, #page_18 #img_15, #page_19 #img_15, #page_20 #img_15 {
+    width: 50%;
+    margin: 40px auto 0 auto; }
+
+#page_16 #ul_16 ul:after {
+  content: "";
+  display: block;
+  clear: both; }
+#page_16 #ul_16 ul li {
+  width: 48%;
+  float: left;
+  padding: 2%; }
+  @media screen and (max-width: 800px) {
+    #page_16 #ul_16 ul li {
+      width: 100%; } }
+#page_16 #img_16 {
+  width: 50%;
+  margin: 40px auto 0 auto; }
+#page_16 h3 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 1024px) {
+    #page_16 h3 {
+      font-size: 30px; } }
+  @media screen and (max-width: 800px) {
+    #page_16 h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 411px) {
+    #page_16 h3 {
+      font-size: 13px;
+      text-align: center; } }
+
+#page_17 #ul_17 ul:after {
+  content: "";
+  display: block;
+  clear: both; }
+#page_17 #ul_17 ul li {
+  width: 30%;
+  float: left;
+  padding: 2%;
+  text-align: center; }
+  @media screen and (max-width: 600px) {
+    #page_17 #ul_17 ul li {
+      width: 100%; } }
+#page_17 #ul_17 ul .li_2_17 {
+  width: 32%; }
+  @media screen and (max-width: 600px) {
+    #page_17 #ul_17 ul .li_2_17 {
+      width: 100%; } }
+#page_17 #ul_17 .ul_2_17 li {
+  width: 48%; }
+  @media screen and (max-width: 600px) {
+    #page_17 #ul_17 .ul_2_17 li {
+      width: 100%; } }
+#page_17 h3 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 1024px) {
+    #page_17 h3 {
+      font-size: 30px; } }
+  @media screen and (max-width: 800px) {
+    #page_17 h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 411px) {
+    #page_17 h3 {
+      font-size: 13px;
+      text-align: center; } }
+#page_17 .img_17 {
+  margin: 0 auto; }
+  @media screen and (max-width: 600px) {
+    #page_17 .img_17 {
+      width: 60%; } }
+
+.img_18_right_mobi {
+  display: none; }
+  .img_18_right_mobi:after {
+    content: "";
+    display: block;
+    clear: both; }
+  @media screen and (max-width: 411px) {
+    .img_18_right_mobi {
+      display: block; } }
+  .img_18_right_mobi .img_18 {
+    width: 40%;
+    float: left;
+    margin: 0 auto;
+    padding: 5%; }
+
+#page_18 h3 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 1024px) {
+    #page_18 h3 {
+      font-size: 30px; } }
+  @media screen and (max-width: 800px) {
+    #page_18 h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 411px) {
+    #page_18 h3 {
+      font-size: 13px;
+      text-align: center; } }
+#page_18 #ul_18 ul:after {
+  content: "";
+  display: block;
+  clear: both; }
+#page_18 #ul_18 ul .li_1_18 {
+  width: 65%;
+  float: left; }
+  @media screen and (max-width: 411px) {
+    #page_18 #ul_18 ul .li_1_18 {
+      width: 100%; } }
+#page_18 #ul_18 ul .li_2_18 {
+  width: 25%;
+  float: right; }
+  @media screen and (max-width: 411px) {
+    #page_18 #ul_18 ul .li_2_18 {
+      width: 100%; } }
+  @media screen and (max-width: 411px) {
+    #page_18 #ul_18 ul .li_2_18 .img_18_right {
+      display: none; } }
+#page_18 .end_p_13 {
+  font-size: smaller;
+  font-style: italic;
+  text-align: end; }
+  @media screen and (max-width: 800px) {
+    #page_18 .end_p_13 {
+      font-size: 8px; } }
+
+#page_19 h3 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 1024px) {
+    #page_19 h3 {
+      font-size: 30px; } }
+  @media screen and (max-width: 800px) {
+    #page_19 h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 411px) {
+    #page_19 h3 {
+      font-size: 13px;
+      text-align: center; } }
+
+.ul_19 ul {
+  list-style-type: none; }
+  .ul_19 ul:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .ul_19 ul li {
+    width: 25%;
+    padding: 2%;
+    float: left; }
+    @media screen and (max-width: 1024px) {
+      .ul_19 ul li {
+        padding: 1%; } }
+    @media screen and (max-width: 600px) {
+      .ul_19 ul li {
+        width: 48%;
+        padding: 5px;
+        float: left; }
+        .ul_19 ul li:nth-child(even) {
+          float: right; }
+        .ul_19 ul li:nth-child(odd) {
+          clear: left; } }
+    @media screen and (max-width: 320px) {
+      .ul_19 ul li {
+        width: 100%; } }
+@media screen and (max-width: 320px) {
+  .ul_19 .img_19 {
+    width: 50%;
+    margin: 0 auto; } }
+
+#page_20 h3 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 1680px) {
+    #page_20 h3 {
+      font-size: 40px; } }
+  @media screen and (max-width: 1024px) {
+    #page_20 h3 {
+      font-size: 35px; } }
+  @media screen and (max-width: 800px) {
+    #page_20 h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 411px) {
+    #page_20 h3 {
+      font-size: 13px;
+      text-align: center; } }
+
 /*# sourceMappingURL=style.css.map */
